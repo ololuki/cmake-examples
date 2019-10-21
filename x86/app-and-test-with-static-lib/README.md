@@ -3,12 +3,16 @@ This project contains static library with core functionality, test executable to
 This project can be open and build in Qt Creator.
 
 # Steps to build and run (assume GNU as default toolchain):
+```
 mkdir build
 cd build
 cmake ..
 make
 ./tests
 ./app
+```
 
 Sometimes CMake generates Visual Studio solution on Windows by default. To force generating Unix style makefiles and use GNU toolchain you can use:
+```
 cmake -G "Unix Makefiles" ..
+```
