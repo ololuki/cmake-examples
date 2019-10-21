@@ -9,3 +9,6 @@ cmake ..
 make
 ./tests
 ./app
+
+Sometimes CMake generates Visual Studio solution on Windows by default. To force generating Unix style makefiles and use GNU toolchain you can use:
+cmake -G "Unix Makefiles" ..
