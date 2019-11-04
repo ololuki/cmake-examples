@@ -1,6 +1,6 @@
-#CMake simple blink led project for AVR
+# CMake simple blink led project for AVR
 
-#Usage
+# Usage
 
 ## Just build
 ```
